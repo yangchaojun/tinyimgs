@@ -1,0 +1,21 @@
+{
+  "name": "tinyimgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "compress",
+    "tiny",
+    "png",
+    "jpg"
+  ],
+  "author": "yangchaojun",
+  "license": "MIT",
+  "dependencies": {
+    "tinify": "^1.6.0-beta.2"
+  },
+  "bin": "src/index.js"
+}
