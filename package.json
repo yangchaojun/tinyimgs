@@ -1,7 +1,8 @@
 {
   "name": "tinyimgs",
   "version": "1.0.0",
-  "description": "",
+  "description": "a tool to compress images by tinypng.com",
+  "repository": "yangchaojun/tinyimgs",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
