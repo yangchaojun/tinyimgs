@@ -16,7 +16,8 @@
   "author": "yangchaojun",
   "license": "MIT",
   "dependencies": {
-    "tinify": "^1.6.0-beta.2"
+    "tinify": "^1.6.0-beta.2",
+    "yargs": "^17.0.1"
   },
   "bin": "src/index.js",
   "devDependencies": {
