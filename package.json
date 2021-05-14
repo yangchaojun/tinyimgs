@@ -18,5 +18,13 @@
   "dependencies": {
     "tinify": "^1.6.0-beta.2"
   },
-  "bin": "src/index.js"
+  "bin": "src/index.js",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
