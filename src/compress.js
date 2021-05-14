@@ -1,3 +1,5 @@
+const fs = require('fs')
+const tinify = require('./tinyConfig')
 function compress(dir, outputDir) {
   let num = 0
   fs.readdir(dir, (err, files) => {
