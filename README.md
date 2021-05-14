@@ -18,10 +18,21 @@ UI：你自己压缩一下吧<br/>
 2. 一张一张选中需要压缩的图片
 3. 将压缩后的图片一张一张下载下来保存
 
-现在，有了`tiny-image`再也不需要进行以上的操作了，只需要在文件夹的目录中运行
+现在，有了`tinyimgs`再也不需要进行以上的操作了，只需要在文件夹的目录中运行
 
 ```bash
-  tiny-image
+  tinyimgs
+
+  tinyimgs -h
+
+  Usage: tingyImgs [options]
+
+  选项：
+    -v, --version  显示版本号                                               [布尔]
+    -o, --out      the dir that store compressed imgs  [字符串] [默认值: "output"]
+    -h, --help     显示帮助信息                                             [布尔]
+
+  copyright 2021
 ```
 
 就可以自动进行压缩了。
